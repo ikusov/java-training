@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <File name="file" fileName="logs/main_log.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m %ex%n</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="search" fileName="logs/search.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m %ex%n</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="input_errors" fileName="logs/input_errors.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m %ex%n</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="exceptions" fileName="logs/exceptions.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m %ex%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="file" level="DEBUG"/>
+        </Root>
+        <Logger name="search" level="info" additivity="true">
+            <AppenderRef ref="search" level="INFO"/>
+        </Logger>
+        <Logger name="error" level="info" additivity="true">
+            <AppenderRef ref="input_errors" level="INFO"/>
+        </Logger>
+        <Logger name="exception" level="info" additivity="true">
+            <AppenderRef ref="exceptions" level="INFO"/>
+        </Logger>
+    </Loggers>
+</Configuration>
