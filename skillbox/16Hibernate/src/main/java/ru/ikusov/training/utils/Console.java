@@ -1,4 +1,4 @@
-package ru.ikusov.training.skillbox;
+package ru.ikusov.training.utils;
 
 import java.util.Scanner;
 

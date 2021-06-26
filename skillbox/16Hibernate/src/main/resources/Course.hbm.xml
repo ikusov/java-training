@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ru.ikusov.training.skillbox.hibernate.Course" table="courses">
+        <meta attribute="class-description">
+            This class contains courses' details.
+        </meta>
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="duration"/>
+        <property name="type"/>
+        <property name="description"/>
+        <property name="teacherId" column="teacher_id"/>
+        <property name="studentsCount" column="students_count"/>
+        <property name="price"/>
+        <property name="pricePerHour" column="price_per_hour"/>
+    </class>
+</hibernate-mapping>
