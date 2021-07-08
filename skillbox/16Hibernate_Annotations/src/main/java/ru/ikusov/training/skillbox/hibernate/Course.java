@@ -89,6 +89,6 @@ public class Course {
     }
 
     public String toString() {
-        return String.format("Course name: %s, students count: %d", name, studentsCount);
+        return String.format("Course name: %s, course type: %s, students count: %d", name, type, studentsCount);
     }
 }
