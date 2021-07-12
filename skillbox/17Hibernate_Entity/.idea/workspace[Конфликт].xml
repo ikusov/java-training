@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3b604c9-bb53-4948-be8f-2e2cc01362ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../14MOSMetro/target/classes/ru (1)/ikusov/training/skillbox/mosmetro/MosMetroMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14MOSMetro/target/classes/ru (1)/ikusov/training/skillbox/mosmetro/MosMetroMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14MOSMetro/target/classes/ru/ikusov/training/skillbox/mosmetro/MosMetroMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14MOSMetro/target/classes/ru/ikusov/training/skillbox/mosmetro/MosMetroMain.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1uw39b81buD3Bwmp9IuPGmaIYTv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.ikusov.training.skillbox.hibernatentity.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.ikusov.training.utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ikusov.training.skillbox.hibernatentity.MainClass" />
+      <module name="17Hibernate_Entity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ikusov.training.skillbox.hibernatentity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3b604c9-bb53-4948-be8f-2e2cc01362ce" name="Default Changelist" comment="" />
+      <created>1625562674144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625562674144</updated>
+    </task>
+    <servers />
+  </component>
+</project>
