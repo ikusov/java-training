@@ -11,7 +11,6 @@ import ru.ikusov.training.skillbox.hibernatehql.model.Student;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
-import java.util.ArrayList;
 import java.util.List;
 
 import static ru.ikusov.training.utils.Console.p;
@@ -23,16 +22,16 @@ public class MainClass {
         myTheOneAndTheOnlySessionFactory = createTheOneAndTheOnlySessionFactory();
     }
 
-    public static void main(String... jagaldgjjlag) {
+    public final static void main(String... jagaldgjjlag) {
         p("Hello world!");
         test1();
     }
 
+    @SuppressWarnings("all")
     public static void test1() {
         List<Course> courses;
         List<Student> students;
         List<Purchase> purchases;
-        List<LinkedPurchase> linkedPurchases = new ArrayList<>();
 
         EntityManager entityManager = myTheOneAndTheOnlySessionFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
