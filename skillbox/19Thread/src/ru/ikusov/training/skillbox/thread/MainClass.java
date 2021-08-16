@@ -89,7 +89,9 @@ public final class MainClass extends Object {
         for(File file : files) {
             while(true) {
                 if (threadGroup.activeCount() < cPUCount) {
-                    (new Thread(threadGroup, new ImagesResizer(file, outputPath, useImgScalarLib))).start();
+                    Thread imageResizer =
+                            new Thread(threadGroup, new ImagesResizer(file, outputPath, useImgScalarLib));
+                    imageResizer.start();
                     break;
                 }
                 Thread.sleep(10);
