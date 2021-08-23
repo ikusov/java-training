@@ -31,49 +31,18 @@ public final class Console {
 
     /**
      * Prints funny colored string ended by terminator
-     * @param s string for funny coloring
-     * @param terminator terminator for the funny colored string
-     * @param <S> object of any type will be casted to String using toString() methoda
+     * @param s
+     * @param terminator
+     * @param <S>
      */
     public static<S> void p(S s, String terminator) {
-        Console.Color color = Console.Color.BLACK;
+        Color color = Color.BLACK;
         color.setRandomColor();
         System.out.print(color.coloredString(s + terminator));
     }
 
-    /**
-     * Prints funny colored line
-     * @param s string for funny coloring
-     * @param <S> type of the object to string casting and funny coloring
-     */
     public static<S> void p(S s) {
         p(s, "\n");
-    }
-
-    /**
-     * Prints funny colored formatted line. Invoke String.format, if questions pls rd oracle docos.
-     * @param format formatted string
-     * @param args args for the formatted string
-     */
-    public static void pf(String format, Object... args) {p(String.format(format, args));}
-
-    /**
-     * Just print a string terminated by terminator
-     * @param s string to print
-     * @param terminator terminator to terminate
-     * @param <S> type of object to stringing (using widely known toString() methoda)
-     */
-    public static<S> void pt(S s, String terminator) {
-        System.out.print(s + terminator);
-    }
-
-    /**
-     * Just print a gray dull string terminated by new line
-     * @param s string to print
-     * @param <S> type of object to be stringed by toString()
-     */
-    public static<S> void pt(S s) {
-        pt(s, "\n");
     }
 
     /**

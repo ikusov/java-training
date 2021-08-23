@@ -39,15 +39,24 @@ public class MyMath {
     }
 
     /**
-     * returns random 10-character string
-     * @return
+     * returns random n-character string
+     * @param n number of characters
+     * @return n-character brand new random streeng
      */
-    public static String rs() {
-        char[] s = new char[10];
-        for (int i=0; i<10; i++) {
+    public static String rs(int n) {
+        char[] s = new char[n];
+        for (int i=0; i<n; i++) {
             s[i] = (char)(Math.random()*(1103-1040)+1040);
         }
 
         return String.valueOf(s);
+    }
+
+    /**
+     * returns random 10-character string
+     * @return random 10-character string
+     */
+    public static String rs() {
+        return rs(10);
     }
 }

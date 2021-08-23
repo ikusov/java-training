@@ -41,7 +41,6 @@ public class LinksProcessor extends RecursiveTask<Set<String>> {
                     subTasks.add(task);
                 }
             }
-            //todo: comment, some test and git!
             //add tasks results to link set
             for (LinksProcessor task : subTasks) {
                 linkSet.addAll(task.join());
